@@ -9,9 +9,9 @@ while (guessedNumber !== ComputerNumber);
  guessedNumber = parseInt(guessedNumber);
 
  if(isNaN(guessedNumber)) {
-     alert ("Please Enter a Valid Number");
+     alert ("Please Enter a Valid Number"); 
     } else if (guessedNumber <1 || guessedNumber > 100){
-        alert("The Number must be between 1 and 100")
+        alert("The Number must be between 1 and 100") // if the entered string is a number but greater than or less than 0-100
     } else if (guessedNumber < ComputerNumber){
         alert("This number is to low, try again")
     } else if (guessedNumber > ComputerNumber){
